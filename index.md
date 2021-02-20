@@ -2,13 +2,15 @@
 
 1. Programa una función que cuente el número de caracteres de una cadena de texto.
 
-- miFuncion("Hola Mundo") devolverá 10.
+- ("Hola Mundo") devolverá 10.
 
-```
+```javascript
+let txt = "Hola Mundo";
 function count(txt) {
-    a = txt.length
-    console.log(a)
-}count(txt);
+  a = txt.length;
+  console.log(a);
+}
+count(txt);
 ```
 
 2. Programa una función que te devuelva el texto recortado según el número de caracteres indicados.
