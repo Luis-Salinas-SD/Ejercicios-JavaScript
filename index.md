@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Ejercicios de JavaScript
 
 You can use the [editor on GitHub](https://github.com/Luis-Salinas-SD/Ejercicios-JavaScript/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
