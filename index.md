@@ -50,3 +50,23 @@ function r(txt) {
 }
 r(txt);
 ```
+5. programa una funcion que invierta el texto
+- hola mundo 
+
+```javascript
+let txt = "Hola mundo";
+function reversa(txt) {
+  let arr = txt.split("").reverse().join("");
+
+  console.log(arr);
+}
+reversa(txt);
+```
+6. Programa una función para encontrar el número de veces que se repite una palabra en un texto largo
+- "Hola mundo adíos mundo"
+
+7. Programa una función que te diga si una palabra o frase es un palindromo o no.
+- "Hola mundo adíos mundo"
+
+8. Programa una función que te diga si una palabra o frase es un palindromo o no.
+- "Hola mundo adíos mundo"
