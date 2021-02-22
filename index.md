@@ -90,6 +90,22 @@ resolv(texto, b);
 
 7. Programa una función que te diga si una palabra o frase es un palindromo o no.
 - "Hola mundo adíos mundo"
+```javascript
+let word = prompt("Escribe la palabra");
+function palindromo(word) {
+  word = word.toLowerCase(); //el texto lo convierte a minisculas.
+  let r = word.split("").reverse().join(""); //el texto lo convierte a arreglo, lo invierte y al final lo une
+  console.log("La palabra original:" + word);
+
+  console.log("Palabra al reves:" + r);
+  if (word === r) {
+    console.log("es palindromo");
+  } else {
+    console.log("no es");
+  }
+}
+palindromo(word);
+```
 
 8. Programa una función que te diga si una palabra o frase es un palindromo o no.
 - "Hola mundo adíos mundo"
