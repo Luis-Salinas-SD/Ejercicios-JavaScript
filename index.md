@@ -108,5 +108,6 @@ function palindromo(word) {
 palindromo(word);
 ```
 
+
 8. Programa una función que te diga si una palabra o frase es un palindromo o no.
 - "Hola mundo adíos mundo"
