@@ -90,7 +90,7 @@ resolv(texto, b);
 ```
 7. Programa una función que te diga si una palabra o frase es un palindromo o no.
 - "Hola mundo adíos mundo"
-- 
+
 ```javascript
 let word = prompt("Escribe la palabra");
 function palindromo(word) {
