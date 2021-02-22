@@ -89,6 +89,39 @@ function resolv() {
 resolv(texto, b);
 ```
 
+
+
+
+
+
+
+6. Programa una función para encontrar el número de veces que se repite una palabra en un texto largo
+- Hola mundo adíos mundo
+
+```javascript
+let texto = "hola mundo adios mundo mundo mundo";
+
+let b = "mundo";
+function resolv() {
+  let i = 0; //indice //6 //18 //24 //30 //-1
+  let count = 0; //contador //1 //2 //3 //4
+
+  while (i !== -1) {
+    i = texto.indexOf(b, i); //5 //17 //23 //29 //-1
+    if (i !== -1) {
+      //console.log(i);
+      i++; //6 //18 //24 //30
+      count++; //1 //2 //3 //4
+    } //if
+  } //while
+
+  console.log(
+    `La Palabra ${b} se encuentra ${count} veces en el texto anterior`
+  );
+}
+resolv(texto, b);
+```
+
 7. Programa una función que te diga si una palabra o frase es un palindromo o no.
 - "Hola mundo adíos mundo"
 ```javascript
