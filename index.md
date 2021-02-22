@@ -64,6 +64,7 @@ reversa(txt);
 ```
 6. Programa una función para encontrar el número de veces que se repite una palabra en un texto largo
 - "Hola mundo adíos mundo"
+
 ```javascript
 let texto = "hola mundo adios mundo mundo mundo";
 
